@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-sm">
               A confidential executive search and talent acquisition firm. We connect
-              organisations with exceptional leaders — discreetly, strategically, and with precision.
+              organisations with exceptional leaders, discreetly, strategically, and with precision.
             </p>
             <p className="text-gray-600 text-xs mt-6">info@apexrecruiters.com</p>
           </div>

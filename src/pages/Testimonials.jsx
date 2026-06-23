@@ -185,7 +185,7 @@ export default function Testimonials() {
               <p className="text-gray-500 mt-6 leading-relaxed text-sm">
                 We don't quote vanity metrics. Our 94% retention figure is calculated from
                 placements made in the last five years. Our 21-day average is measured
-                from brief receipt to shortlist delivery — not to first contact.
+                from brief receipt to shortlist delivery, not to first contact.
               </p>
               <Link
                 to="/contact"
@@ -196,7 +196,7 @@ export default function Testimonials() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { n: "500+", l: "Senior placements" },
+                { n: "2000+", l: "Senior placements" },
                 { n: "22", l: "Countries" },
                 { n: "12+", l: "Years operating" },
                 { n: "8", l: "Sectors covered" },

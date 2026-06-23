@@ -34,12 +34,12 @@ export default function Home() {
     {
       icon: "✺",
       title: "Confidential Campaigns",
-      desc: "When a position cannot be publicly disclosed, our team manages the entire process — from brief to placement — in complete confidence.",
+      desc: "When a position cannot be publicly disclosed, our team manages the entire process, from brief to placement, in complete confidence.",
     },
   ];
 
   const stats = [
-    { n: "500+", label: "Placements Made" },
+    { n: "2000+", label: "Placements Made" },
     { n: "12+", label: "Years in Executive Search" },
     { n: "30+", label: "Industries Served" },
     { n: "94%", label: "Retention at 12 Months" },
@@ -53,27 +53,27 @@ export default function Home() {
 
   const team = [
     {
-      name: "Marcus Elliot",
+      name: "Patricia Nichols",
       title: "Managing Partner",
-      focus: "Financial Services · Private Equity",
-      img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+      focus: "Recruitment · Search Consultant",
+      img: "https://media.licdn.com/dms/image/v2/C4D03AQHzgJikzO9oMg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1606880596540?e=1783555200&v=beta&t=EXqV5HDw1OX8Y4A8earjPlO8FB5bc_4ViyLVV4T1-lQ",
     },
     {
-      name: "Serena Okafor",
+      name: "Adrian Clark",
       title: "Senior Search Consultant",
       focus: "Healthcare · Life Sciences",
-      img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+      img: "https://ci3.googleusercontent.com/mail-sig/AIorK4zSQy-EYAnvfNSj_dgFxUdBPoa6g7LT5g8XaZvs69AfjnizTLZJma1mSjLH-Ck4_jHliKz8mW2mwxkQ",
     },
     {
-      name: "James Whitfield",
+      name: "Lance Fieldman",
       title: "Principal Consultant",
-      focus: "Technology · SaaS · Fintech",
+      focus: "Talent Management",
       img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
     },
     {
       name: "Adaeze Nwosu",
       title: "Search Consultant",
-      focus: "Consumer · Retail · FMCG",
+      focus: "Talent Management",
       img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80",
     },
   ];
@@ -173,7 +173,7 @@ export default function Home() {
                 </span>
               </div>
               <div className="flex gap-4 text-xs text-gray-500 mt-3 border-t border-white/8 pt-4">
-                <span>📍 London, UK</span>
+                <span>📍 Texas, US</span>
                 <span>⏱ Retained Search</span>
                 <span>🔒 Confidential</span>
               </div>
@@ -219,7 +219,7 @@ export default function Home() {
             <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[#C6963A]">What We Do</span>
             <h2 className="text-4xl font-bold mt-4">Search without compromise</h2>
             <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-              Every engagement is handled by a dedicated search team — not handed off. We embed in your organisation's goals before we open a single conversation with the market.
+              Every engagement is handled by a dedicated search team, not handed off. We embed organisations goals before we open a single conversation with the market.
             </p>
           </motion.div>
 
@@ -268,11 +268,11 @@ export default function Home() {
 
               <div className="mt-12 space-y-8">
                 {[
-                  { step: "01", title: "Discovery & Brief", desc: "We meet with your leadership team to understand the role, culture, timeline, and what 'exceptional' looks like for this hire." },
+                  { step: "01", title: "Discovery & Brief", desc: "We meet with the leadership team to understand the role, culture, timeline, and what 'exceptional' looks like for this hire." },
                   { step: "02", title: "Market Mapping", desc: "Our consultants build a targeted longlist of candidates through direct research, network intelligence, and industry relationships." },
-                  { step: "03", title: "Discreet Outreach", desc: "We approach passive candidates confidentially — never revealing the client or position until mutual interest is confirmed." },
-                  { step: "04", title: "Assessment & Shortlist", desc: "Candidates are assessed against your brief. You receive a concise shortlist with our full evaluation, ready for interview." },
-                  { step: "05", title: "Placement & Retention", desc: "We manage offer, negotiation, and onboarding support — and follow up at 3, 6, and 12 months to protect the placement." },
+                  { step: "03", title: "Discreet Outreach", desc: "We approach passive candidates confidentially, never revealing the client or position until mutual interest is confirmed." },
+                  { step: "04", title: "Assessment & Shortlist", desc: "Candidates are assessed. Companies receive a concise shortlist with our full evaluation, ready for interview." },
+                  { step: "05", title: "Placement & Retention", desc: "We manage offer, negotiation, and onboarding support and follow up at 3, 6, and 12 months to protect the placement." },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-6">
                     <div className="shrink-0 w-10 h-10 rounded-xl bg-[#C6963A]/10 border border-[#C6963A]/20 flex items-center justify-center">
@@ -331,7 +331,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold mt-4">Industries we serve</h2>
             </div>
             <p className="text-gray-500 text-sm max-w-sm leading-relaxed">
-              Our consultants have deep domain knowledge — not generalist coverage — across eight core sectors.
+              Our consultants have deep domain knowledge, not generalist coverage, across eight core sectors.
             </p>
           </motion.div>
 

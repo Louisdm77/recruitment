@@ -14,7 +14,7 @@ const services = [
     icon: "◈",
     title: "Executive Search",
     subtitle: "C-Suite · Board · Senior Leadership",
-    desc: "For organisations that need to make a critical hire at the highest level. We identify and approach leaders who aren't looking — people who are excelling in their current roles and would never respond to a job ad.",
+    desc: "For organisations that need to make a critical hire at the highest level. We identify and approach leaders who aren't looking, people who are excelling in their current roles and would never respond to a job ad.",
     detail: [
       "CEO, CFO, COO, CHRO, CTO, CMO mandates",
       "Board Director and NED appointments",
@@ -28,7 +28,7 @@ const services = [
     icon: "◎",
     title: "Retained Search",
     subtitle: "Dedicated · Structured · Accountable",
-    desc: "A fully dedicated search engagement. One consultant, one mandate, one standard. Retained search is how organisations fill roles where the cost of a bad hire — or a slow hire — is measured in millions.",
+    desc: "A fully dedicated search engagement. One consultant, one mandate, one standard. Retained search is how organisations fill roles where the cost of a bad hire or a slow hire is measured in millions.",
     detail: [
       "Exclusive mandate, dedicated consultant",
       "Full market map and longlist within 10 days",
@@ -56,7 +56,7 @@ const services = [
     icon: "✺",
     title: "Talent Strategy & Advisory",
     subtitle: "Workforce Planning · Succession",
-    desc: "Beyond individual hires, we help organisations think about their leadership pipeline — who's ready, who needs developing, and where the critical gaps will emerge in 12 to 36 months.",
+    desc: "Beyond individual hires, we help organisations think about their leadership pipeline who's ready, who needs developing, and where the critical gaps will emerge in 12 to 36 months.",
     detail: [
       "Leadership team diagnostic and benchmarking",
       "Succession planning for key roles",
@@ -70,7 +70,7 @@ const services = [
     icon: "⬡",
     title: "Diversity-Led Search",
     subtitle: "Inclusive · Representative · Rigorous",
-    desc: "We help organisations build leadership teams that reflect the world they operate in. This isn't a bolt-on — it's an approach woven into every stage of our search methodology.",
+    desc: "We help organisations build leadership teams that reflect the world they operate in. This isn't a bolt-on, it's an approach woven into every stage of our search methodology.",
     detail: [
       "Diverse longlist guaranteed on every mandate",
       "Blind-to-demographic initial screening",
@@ -84,7 +84,7 @@ const services = [
     icon: "⊕",
     title: "Interim & Project Leadership",
     subtitle: "Fast · Experienced · Available Now",
-    desc: "When a leadership gap opens unexpectedly — through resignation, illness, or acquisition — we can deploy senior interim leaders within days, not weeks.",
+    desc: "When a leadership gap opens unexpectedly, through resignation, illness, or acquisition, we can deploy senior interim leaders within days, not weeks.",
     detail: [
       "Interim CEO, CFO, HR, and functional heads",
       "Transformation and integration leaders",
@@ -99,7 +99,7 @@ const differentiators = [
   { label: "Average time to shortlist", value: "21 days" },
   { label: "Offer acceptance rate", value: "91%" },
   { label: "12-month placement retention", value: "94%" },
-  { label: "Searches completed", value: "500+" },
+  { label: "Searches completed", value: "2000+" },
 ];
 
 export default function Services() {

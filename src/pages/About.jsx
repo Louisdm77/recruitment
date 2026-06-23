@@ -102,7 +102,7 @@ export default function About() {
             </h1>
             <p className="text-gray-400 text-lg mt-8 max-w-2xl mx-auto leading-relaxed">
               Apex Recruiters is a specialist executive search firm. We work exclusively
-              with organisations on confidential mandates — roles that can't be advertised,
+              with organisations on confidential mandates, roles that can't be advertised,
               leaders who aren't actively looking, and searches where failure isn't an option.
             </p>
           </motion.div>
