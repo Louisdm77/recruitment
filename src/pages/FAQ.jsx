@@ -16,7 +16,7 @@ const faqs = [
       },
       {
         q: "Do you share our brief with anyone outside your team?",
-        a: "No. Your brief, your identity, and all associated details remain within Apex Recruiters' search team. We don't subcontract work or share information with third-party databases.",
+        a: "No. Your brief, your identity, and all associated details remain within Apex Career Partners' search team. We don't subcontract work or share information with third-party databases.",
       },
     ],
   },

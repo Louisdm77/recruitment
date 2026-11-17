@@ -122,7 +122,7 @@ export default function Home() {
             </motion.h1>
 
             <motion.p {...fadeUp(0.35)} className="text-gray-400 text-lg mt-8 leading-relaxed max-w-lg">
-              Apex Recruiters partners with organisations to identify, assess, and
+              Apex Career Partners partners with organisations to identify, assess, and
               secure exceptional talent for positions that require the highest level
               of discretion. No public listings. No noise. Just results.
             </motion.p>

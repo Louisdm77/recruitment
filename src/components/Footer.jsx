@@ -13,14 +13,14 @@ export default function Footer() {
                 <span className="text-white font-black text-sm">A</span>
               </div>
               <span className="text-white font-bold tracking-tight text-lg">
-                Apex <span className="text-[#C6963A]">Recruiters</span>
+                Apex <span className="text-[#C6963A]">Career Partners</span>
               </span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-sm">
               A confidential executive search and talent acquisition firm. We connect
               organisations with exceptional leaders, discreetly, strategically, and with precision.
             </p>
-            <p className="text-gray-600 text-xs mt-6">info@apexrecruiters.com</p>
+            <p className="text-gray-600 text-xs mt-6">info@apexcareerpartners.com</p>
           </div>
 
           {/* Navigation */}
@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 pt-8 border-t border-white/8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-xs">© {new Date().getFullYear()} Apex Recruiters. All rights reserved.</p>
+          <p className="text-gray-600 text-xs">© {new Date().getFullYear()} Apex Career Partners. All rights reserved.</p>
           <p className="text-gray-600 text-xs">Confidential Search · Executive Talent · Global Reach</p>
         </div>
       </div>

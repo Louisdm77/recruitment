@@ -33,10 +33,11 @@ export default function Contact() {
   ];
 
   const consultants = [
-    { name: "Marcus Elliot", focus: "Financial Services · PE", email: "m.elliot@apexrecruiters.com" },
-    { name: "Serena Okafor", focus: "Healthcare · Life Sciences", email: "s.okafor@apexrecruiters.com" },
-    { name: "James Whitfield", focus: "Technology · SaaS", email: "j.whitfield@apexrecruiters.com" },
-    { name: "Adaeze Nwosu", focus: "Consumer · Retail", email: "a.nwosu@apexrecruiters.com" },
+    { name: "Adrian Clark", email: "adrianclark@apexcareerpartners.com" },
+    { name: "Lizbeth Benson", email: "Lizbethbenson@apexcareerpartners.com" },
+    { name: "Patricia Nichols", email: "Patricianichols@apexcareerpartners.com" },
+    { name: "Lance Fieldman", email: "Lancefieldman@apexcareerpartners.com" },
+    { name: "Cathy Dibona", email: "Cathydibona@apexcareerpartners.com" },
   ];
 
   return (
@@ -177,7 +178,7 @@ export default function Contact() {
               )}
               {status === "error" && (
                 <div className="mt-5 bg-red-500/10 border border-red-500/20 text-red-400 text-sm px-5 py-4 rounded-xl text-center">
-                  Something went wrong. Please email us directly at info@apexrecruiters.com
+                  Something went wrong. Please email us directly at info@apexcareerpartners.com
                 </div>
               )}
             </div>
@@ -210,7 +211,7 @@ export default function Contact() {
                   <div key={c.name} className="bg-white/[0.03] border border-white/8 rounded-2xl p-5 flex items-center justify-between gap-4 hover:border-[#C6963A]/30 transition-all duration-200">
                     <div>
                       <p className="text-white font-semibold text-sm">{c.name}</p>
-                      <p className="text-gray-600 text-xs mt-0.5">{c.focus}</p>
+                      <p className="text-gray-600 text-xs mt-0.5">{c.email}</p>
                     </div>
                     <a
                       href={`mailto:${c.email}`}
