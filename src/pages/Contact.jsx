@@ -33,11 +33,11 @@ export default function Contact() {
   ];
 
   const consultants = [
-    { name: "Adrian Clark", email: "adrianclark@apexcareerpartners.com" },
-    { name: "Lizbeth Benson", email: "Lizbethbenson@apexcareerpartners.com" },
-    { name: "Patricia Nichols", email: "Patricianichols@apexcareerpartners.com" },
-    { name: "Lance Fieldman", email: "Lancefieldman@apexcareerpartners.com" },
-    { name: "Cathy Dibona", email: "Cathydibona@apexcareerpartners.com" },
+    { name: "Adrian Clark", focus: "Head of Talent Acquisition", email: "adrianclark@apexcareerpartners.com" },
+    { name: "Lizbeth Benson", focus: "Recruitment Manager", email: "Lizbethbenson@apexcareerpartners.com" },
+    { name: "Patricia Nichols", focus: "Senior Talent Manager", email: "Patricianichols@apexcareerpartners.com" },
+    { name: "Lance Fieldman", focus: "Executive Search Consultant", email: "Lancefieldman@apexcareerpartners.com" },
+    { name: "Cathy Dibona", focus: "Talent Partner", email: "Cathydibona@apexcareerpartners.com" },
   ];
 
   return (
@@ -211,7 +211,7 @@ export default function Contact() {
                   <div key={c.name} className="bg-white/[0.03] border border-white/8 rounded-2xl p-5 flex items-center justify-between gap-4 hover:border-[#C6963A]/30 transition-all duration-200">
                     <div>
                       <p className="text-white font-semibold text-sm">{c.name}</p>
-                      <p className="text-gray-600 text-xs mt-0.5">{c.email}</p>
+                      <p className="text-gray-600 text-xs mt-0.5">{c.focus}</p>
                     </div>
                     <a
                       href={`mailto:${c.email}`}
