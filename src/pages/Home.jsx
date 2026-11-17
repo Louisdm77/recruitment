@@ -56,7 +56,7 @@ export default function Home() {
       name: "Patricia Nichols",
       title: "Managing Partner",
       focus: "Recruitment · Search Consultant",
-      img: "https://media.licdn.com/dms/image/v2/C4D03AQHzgJikzO9oMg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1606880596540?e=1783555200&v=beta&t=EXqV5HDw1OX8Y4A8earjPlO8FB5bc_4ViyLVV4T1-lQ",
+      img: "https://media.licdn.com/dms/image/v2/C4D03AQHzgJikzO9oMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1606880596540?e=1796256000&v=beta&t=k3OZanMUXsF7EHccnXcU0QbmLQ5e6L7f5sr6mHfe9HI",
     },
     {
       name: "Adrian Clark",
@@ -68,13 +68,19 @@ export default function Home() {
       name: "Lance Fieldman",
       title: "Principal Consultant",
       focus: "Talent Management",
-      img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
+      img: "https://media.licdn.com/dms/image/v2/C4E03AQHJi1Ni7p6fJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1594754547637?e=1796256000&v=beta&t=zahxJOQdsR7rB-ouk9XpxKwefsGItwwLsZ1VVwmHgYc",
     },
     {
-      name: "Adaeze Nwosu",
-      title: "Search Consultant",
-      focus: "Talent Management",
-      img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80",
+      name: "Lizbeth Benson",
+      title: "Recruitment Manager",
+      focus: "Recruitment · Talent Acquisition",
+      img: "https://media.licdn.com/dms/image/v2/D4E03AQHgATNHqLeBcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711730904747?e=1796256000&v=beta&t=3C9o2H6db0G1AepPemJDOhBJpqhtJly66eE_1k6qKeo",
+    },
+    {
+      name: "Cathy Dibona",
+      title: "Talent Partner",
+      focus: "Talent Management · Client Relations",
+      img: "https://media.licdn.com/dms/image/v2/C4D03AQGC5nEbKOh6_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1562074079444?e=1796256000&v=beta&t=t5Np3oZgh9td_iQlo_oTwSGNOH5d5wDxGEoO0AoJY-c",
     },
   ];
 
@@ -363,7 +369,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {team.map((m, i) => (
               <motion.div
                 key={m.name}

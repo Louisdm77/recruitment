@@ -33,10 +33,10 @@ export default function Contact() {
   ];
 
   const consultants = [
-    { name: "Adrian Clark", focus: "Head of Talent Acquisition", email: "adrianclark@apexcareerpartners.com" },
+    { name: "Adrian Clark", focus: "Senior Search Consultant", email: "adrianclark@apexcareerpartners.com" },
     { name: "Lizbeth Benson", focus: "Recruitment Manager", email: "Lizbethbenson@apexcareerpartners.com" },
-    { name: "Patricia Nichols", focus: "Senior Talent Manager", email: "Patricianichols@apexcareerpartners.com" },
-    { name: "Lance Fieldman", focus: "Executive Search Consultant", email: "Lancefieldman@apexcareerpartners.com" },
+    { name: "Patricia Nichols", focus: "Managing Partner", email: "Patricianichols@apexcareerpartners.com" },
+    { name: "Lance Fieldman", focus: "Principal Consultant", email: "Lancefieldman@apexcareerpartners.com" },
     { name: "Cathy Dibona", focus: "Talent Partner", email: "Cathydibona@apexcareerpartners.com" },
   ];
 
