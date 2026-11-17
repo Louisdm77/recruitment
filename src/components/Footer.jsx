@@ -20,7 +20,7 @@ export default function Footer() {
               A confidential executive search and talent acquisition firm. We connect
               organisations with exceptional leaders, discreetly, strategically, and with precision.
             </p>
-            <p className="text-gray-600 text-xs mt-6">info@apexcareerpartners.com</p>
+            <p className="text-gray-600 text-xs mt-6">patricianichols@apexcareerpartners.com</p>
           </div>
 
           {/* Navigation */}

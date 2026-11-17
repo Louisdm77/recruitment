@@ -178,7 +178,7 @@ export default function Contact() {
               )}
               {status === "error" && (
                 <div className="mt-5 bg-red-500/10 border border-red-500/20 text-red-400 text-sm px-5 py-4 rounded-xl text-center">
-                  Something went wrong. Please email us directly at info@apexcareerpartners.com
+                  Something went wrong. Please email us directly at patricianichols@apexcareerpartners.com
                 </div>
               )}
             </div>
