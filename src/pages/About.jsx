@@ -93,7 +93,7 @@ export default function About() {
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           <motion.div {...fadeUpView(0.1)}>
             <span className="inline-flex items-center gap-3 text-[#C6963A] text-xs font-semibold tracking-[0.25em] uppercase mb-6">
-              <span className="w-6 h-px bg-[#C6963A]" />About Apex Recruiters<span className="w-6 h-px bg-[#C6963A]" />
+              <span className="w-6 h-px bg-[#C6963A]" />About Apex Career Partners<span className="w-6 h-px bg-[#C6963A]" />
             </span>
             <h1 className="text-5xl lg:text-6xl font-bold leading-[1.08] tracking-tight mt-4">
               Built on trust.
@@ -101,7 +101,7 @@ export default function About() {
               <span className="text-[#C6963A]">Measured by tenure.</span>
             </h1>
             <p className="text-gray-400 text-lg mt-8 max-w-2xl mx-auto leading-relaxed">
-              Apex Recruiters is a specialist executive search firm. We work exclusively
+              Apex Career Partners is a specialist executive search firm. We work exclusively
               with organisations on confidential mandates, roles that can't be advertised,
               leaders who aren't actively looking, and searches where failure isn't an option.
             </p>
@@ -120,7 +120,7 @@ export default function About() {
             </h2>
             <div className="mt-8 space-y-5 text-gray-400 leading-relaxed">
               <p>
-                Apex Recruiters was founded in 2013 by Marcus Elliot, after a decade in executive talent advisory at a global consulting firm. The firm was built on a simple observation: organisations with the most critical hiring needs were the least well-served by conventional recruitment.
+                Apex Career Partners was founded in 2013 by Marcus Elliot, after a decade in executive talent advisory at a global consulting firm. The firm was built on a simple observation: organisations with the most critical hiring needs were the least well-served by conventional recruitment.
               </p>
               <p>
                 We started with a single sector and a single promise — to treat every search as if the future of the organisation depended on it. In many cases, it does.

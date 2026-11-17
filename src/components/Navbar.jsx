@@ -36,7 +36,7 @@ export default function Navbar() {
             <span className="text-white font-black text-sm tracking-tighter">A</span>
           </div>
           <span className="text-white font-bold tracking-tight text-lg">
-            Apex <span className="text-[#C6963A]">Recruiters</span>
+            Apex <span className="text-[#C6963A]">Career Partners</span>
           </span>
         </Link>
 

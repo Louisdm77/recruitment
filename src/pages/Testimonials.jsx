@@ -160,7 +160,7 @@ export default function Testimonials() {
       <section className="py-20 bg-[#080F18] border-t border-white/8">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-center text-xs text-gray-600 tracking-[0.2em] uppercase mb-10">
-            Organisations that have trusted Apex Recruiters — names withheld by request
+            Organisations that have trusted Apex Career Partners — names withheld by request
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {logos.map((l) => (
