@@ -33,10 +33,10 @@ export default function Contact() {
   ];
 
   const consultants = [
-    { name: "Adrian Clark", focus: "Head of Talent Acquisition", email: "adrianclark@apexcareerpartners.com" },
+    { name: "Adrian Clark", focus: "Senior Search Consultant", email: "adrianclark@apexcareerpartners.com" },
     { name: "Lizbeth Benson", focus: "Recruitment Manager", email: "Lizbethbenson@apexcareerpartners.com" },
-    { name: "Patricia Nichols", focus: "Senior Talent Manager", email: "Patricianichols@apexcareerpartners.com" },
-    { name: "Lance Fieldman", focus: "Executive Search Consultant", email: "Lancefieldman@apexcareerpartners.com" },
+    { name: "Patricia Nichols", focus: "Managing Partner", email: "Patricianichols@apexcareerpartners.com" },
+    { name: "Lance Fieldman", focus: "Principal Consultant", email: "Lancefieldman@apexcareerpartners.com" },
     { name: "Cathy Dibona", focus: "Talent Partner", email: "Cathydibona@apexcareerpartners.com" },
   ];
 
@@ -178,7 +178,7 @@ export default function Contact() {
               )}
               {status === "error" && (
                 <div className="mt-5 bg-red-500/10 border border-red-500/20 text-red-400 text-sm px-5 py-4 rounded-xl text-center">
-                  Something went wrong. Please email us directly at info@apexcareerpartners.com
+                  Something went wrong. Please email us directly at patricianichols@apexcareerpartners.com
                 </div>
               )}
             </div>

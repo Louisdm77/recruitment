@@ -10,46 +10,39 @@ const fadeUpView = (delay = 0) => ({
 
 const team = [
   {
-    name: "Marcus Elliot",
+    name: "Patricia Nichols",
     title: "Managing Partner",
-    focus: "Financial Services · Private Equity",
-    bio: "Marcus has 18 years of executive search experience, having previously led talent advisory at a Big Four firm. He personally oversees all CFO, CEO, and board-level mandates.",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+    focus: "Recruitment · Search Consultant",
+    bio: "Patricia leads the firm and oversees every search mandate, working closely with clients from the first brief through to placement.",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQHzgJikzO9oMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1606880596540?e=1796256000&v=beta&t=k3OZanMUXsF7EHccnXcU0QbmLQ5e6L7f5sr6mHfe9HI",
   },
   {
-    name: "Serena Okafor",
+    name: "Adrian Clark",
     title: "Senior Search Consultant",
     focus: "Healthcare · Life Sciences",
-    bio: "Serena spent a decade in healthcare operations before moving into talent. Her network across hospital systems, pharma, and med-tech is unmatched in the sector.",
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+    bio: "Adrian manages senior search mandates, guiding clients and candidates through a structured, confidential process.",
+    img: "https://ci3.googleusercontent.com/mail-sig/AIorK4zSQy-EYAnvfNSj_dgFxUdBPoa6g7LT5g8XaZvs69AfjnizTLZJma1mSjLH-Ck4_jHliKz8mW2mwxkQ",
   },
   {
-    name: "James Whitfield",
+    name: "Lance Fieldman",
     title: "Principal Consultant",
-    focus: "Technology · SaaS · Fintech",
-    bio: "James focuses on scaling leadership teams for high-growth tech companies. He has placed over 60 VPs, CPOs, and CTOs across Series A through pre-IPO stages.",
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80",
+    focus: "Talent Management",
+    bio: "Lance works with organisations on talent management and leadership hiring, helping them secure the right people for critical roles.",
+    img: "https://media.licdn.com/dms/image/v2/C4E03AQHJi1Ni7p6fJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1594754547637?e=1796256000&v=beta&t=zahxJOQdsR7rB-ouk9XpxKwefsGItwwLsZ1VVwmHgYc",
   },
   {
-    name: "Adaeze Nwosu",
-    title: "Search Consultant",
-    focus: "Consumer · Retail · FMCG",
-    bio: "Adaeze brings a commercial lens to talent acquisition, drawing on her background in brand strategy. She specialises in commercial leadership and marketing roles.",
-    img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
+    name: "Lizbeth Benson",
+    title: "Recruitment Manager",
+    focus: "Recruitment · Talent Acquisition",
+    bio: "Lizbeth manages the recruitment process day to day, keeping every search organised, on schedule, and fully confidential.",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQHgATNHqLeBcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711730904747?e=1796256000&v=beta&t=3C9o2H6db0G1AepPemJDOhBJpqhtJly66eE_1k6qKeo",
   },
   {
-    name: "Daniel Hurst",
-    title: "Research & Intelligence Lead",
-    focus: "Market Mapping · Competitive Intelligence",
-    bio: "Daniel leads the research function that underpins every search. His market mapping gives our consultants the intelligence edge that passive outreach alone can't provide.",
-    img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80",
-  },
-  {
-    name: "Priya Mehta",
-    title: "Search Consultant",
-    focus: "Professional Services · Legal · Consulting",
-    bio: "Priya specialises in senior hires within professional services firms — from equity partnerships to regional managing director appointments across 14 countries.",
-    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80",
+    name: "Cathy Dibona",
+    title: "Talent Partner",
+    focus: "Talent Management · Client Relations",
+    bio: "Cathy partners with clients to understand their hiring needs and connects them with candidates who fit both the role and the culture.",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQGC5nEbKOh6_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1562074079444?e=1796256000&v=beta&t=t5Np3oZgh9td_iQlo_oTwSGNOH5d5wDxGEoO0AoJY-c",
   },
 ];
 
@@ -120,13 +113,13 @@ export default function About() {
             </h2>
             <div className="mt-8 space-y-5 text-gray-400 leading-relaxed">
               <p>
-                Apex Career Partners was founded in 2013 by Marcus Elliot, after a decade in executive talent advisory at a global consulting firm. The firm was built on a simple observation: organisations with the most critical hiring needs were the least well-served by conventional recruitment.
+                Apex Career Partners was founded in 2013. The firm was built on a simple observation: organisations with the most critical hiring needs were the least well-served by conventional recruitment.
               </p>
               <p>
                 We started with a single sector and a single promise — to treat every search as if the future of the organisation depended on it. In many cases, it does.
               </p>
               <p>
-                Today, our team of six specialist consultants operates across eight sectors, with placements in 22 countries. Every search is still run the same way: with a dedicated consultant, a structured process, and complete confidentiality.
+                Today, our team of five specialist consultants operates across eight sectors, with placements in 22 countries. Every search is still run the same way: with a dedicated consultant, a structured process, and complete confidentiality.
               </p>
             </div>
             <div className="flex gap-10 mt-12 pt-8 border-t border-white/10">
@@ -189,7 +182,7 @@ export default function About() {
             <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[#C6963A]">Our Team</span>
             <h2 className="text-4xl font-bold mt-4">The search team</h2>
             <p className="text-gray-500 mt-4 max-w-xl leading-relaxed">
-              Six specialist consultants. Each owns a sector. Each operates with the same standard of discretion and rigour.
+              Five specialist consultants. Each owns a sector. Each operates with the same standard of discretion and rigour.
             </p>
           </motion.div>
 
